@@ -28,7 +28,7 @@ const Project = () => {
     const fetchData = async () => {
       // const response = await fetch('http://localhost:3001/post');
       // const data = await response.json();
-      await axios.get('https://folio-alpha-five.vercel.app/').then((res) => {
+      await axios.get('http://localhost:3001/post/').then((res) => {
         setData(res?.data.post);
       });
       // setData(data?.post);

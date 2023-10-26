@@ -1,0 +1,54 @@
+.edu {
+  margin-top: 70px;
+  background-color: var(--odd-color);
+  border-radius: 15px;
+}
+.edu .edu-main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edu-main .edu-head-text {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  height: 1cm;
+  width: 2.5cm;
+  background-color: #2a020269;
+  border-radius: 5px;
+}
+.edu-head-text .edu-head {
+  padding: 5px;
+  color: var(--body-color);
+}
+.edu-main .edu-uni {
+  background-color: rgba(0, 0, 0, 0.642);
+  width: max-content;
+  border-radius: 4px;
+}
+.edu-uni h4 {
+  color: var(--odd-color);
+  margin-left: 5px;
+}
+.edu-uni p {
+  color: var(--odd-color);
+  margin-left: 5px;
+}
+.edu-main .edu-high {
+  background-color: rgba(0, 0, 0, 0.642);
+  width: max-content;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.edu-high h4 {
+  color: var(--odd-color);
+  margin-left: 5px;
+}
+.edu-high p {
+  color: var(--odd-color);
+  margin-left: 5px;
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
+import axios from 'axios';
 // import { Link } from 'react-router-dom';
 // import { FaTrash } from 'react-icons/fa';
 
@@ -26,10 +26,12 @@ const Project = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:3001/post');
-      const data = await response.json();
-
-      setData(data?.post);
+      // const response = await fetch('http://localhost:3001/post');
+      // const data = await response.json();
+      await axios.get('http://localhost:3001/post/').then((res) => {
+        setData(res?.data.post);
+      });
+      // setData(data?.post);
     };
     fetchData();
   }, []);

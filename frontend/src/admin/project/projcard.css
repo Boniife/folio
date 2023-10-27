@@ -39,8 +39,7 @@
 @media only screen and (max-width: 768px) {
   .card-container {
     width: 15rem;
-    border-radius: 1rem;
-    box-shadow: 5px 10px 8px;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     margin: 0.5rem;

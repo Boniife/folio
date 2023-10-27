@@ -6,7 +6,7 @@ import axios from 'axios';
 import './project.css';
 
 import Projcard from '../../admin/project/Projcard';
-// import { Cards } from "../constants/constant";
+import { Cards } from '../constants/constant';
 
 const Project = () => {
   const [data, setData] = useState([]);
@@ -38,8 +38,8 @@ const Project = () => {
   //console.log(data);
 
   const card =
-    data.length > 0 &&
-    data.map((item) => {
+    Cards.length > 0 &&
+    Cards.map((item) => {
       return (
         <div>
           <Projcard

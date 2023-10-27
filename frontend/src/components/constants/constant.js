@@ -1,26 +1,18 @@
+import youtube from '../../assets/images/youtube.png';
+import blue from '../../assets/images/blue.png';
 export const Cards = [
   {
-    id: "1",
-    title: "This is a test",
-    description: "E-commerce",
-    link: "http://link.com",
+    id: '1',
+    title: 'Blue Dart',
+    descripton: 'Delivery service',
+    link: 'http://link.com',
+    img: blue,
   },
   {
-    id: "2",
-    title: "Boni youtube",
-    description: "youtube-clone",
-    link: "http://link.com",
-  },
-  {
-    id: "3",
-    title: "Boni Delivery",
-    description: "delivery-clone",
-    link: "http://link.com",
-  },
-  {
-    id: "4",
-    title: "Boni Delivery",
-    description: "delivery-clone",
-    link: "http://link.com",
+    id: '2',
+    title: 'Boni youtube',
+    descripton: 'youtube-clone',
+    link: 'http://link.com',
+    img: youtube,
   },
 ];

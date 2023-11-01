@@ -1,5 +1,6 @@
 import youtube from '../../assets/images/youtube.png';
 import blue from '../../assets/images/blue.png';
+import fit from '../../assets/images/fit.png';
 export const Cards = [
   {
     id: '1',
@@ -14,5 +15,12 @@ export const Cards = [
     descripton: 'youtube-clone',
     link: 'https://storied-centaur-8e6c60.netlify.app',
     img: youtube,
+  },
+  {
+    id: '3',
+    title: 'Boni-Fit',
+    descripton: 'Fitness Application',
+    link: 'https://clinquant-stardust-ee5c74.netlify.app',
+    img: fit,
   },
 ];

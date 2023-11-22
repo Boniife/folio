@@ -1,6 +1,8 @@
 import youtube from '../../assets/images/youtube.png';
 import blue from '../../assets/images/blue.png';
 import fit from '../../assets/images/fit.png';
+import travel from '../../assets/images/travel.png';
+
 export const Cards = [
   {
     id: '1',
@@ -22,5 +24,12 @@ export const Cards = [
     descripton: 'Fitness Application',
     link: 'https://clinquant-stardust-ee5c74.netlify.app',
     img: fit,
+  },
+  {
+    id: '4',
+    title: 'Boni-Travels',
+    descripton: 'Travel agency',
+    link: 'https://boni-travels.vercel.app',
+    img: travel,
   },
 ];
